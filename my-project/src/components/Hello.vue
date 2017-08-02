@@ -37,6 +37,7 @@
 <script>
 export default {
   name: 'hello',
+
   data () {
     return {
 
@@ -59,6 +60,7 @@ export default {
   .uls li{
     text-align: center;
     width: 25%;
+
   }
     .uls{
       display: flex;
@@ -67,19 +69,18 @@ export default {
       width: 90%;
       margin: auto;
       height: 55px;
-
       color: white;
     }
-    *{
-      padding: 0;
-      margin: 0;
-      list-style: none;
-    }
+
   .wrap{
     background: rgba(0,0,0,0.7);
     position: fixed;
     bottom: 0;
     width: 100%;
   }
-
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 </style>

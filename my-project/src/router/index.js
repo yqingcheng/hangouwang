@@ -5,7 +5,11 @@ import Home from '@/components/Home'
 import List from '@/components/List'
 import Search from '@/components/Search'
 import Shop from '@/components/Shop'
-
+import chess from '@/components/foodrouter/chess'
+import eag from '@/components/foodrouter/eag'
+import food from '@/components/foodrouter/food'
+import fuiter from '@/components/foodrouter/fuiter'
+import you from '@/components/foodrouter/you'
 
 Vue.use(Router)
 
@@ -15,11 +19,11 @@ export default new Router({
       path: '/',
       name: 'Hello',
       component: Hello,
-      redirect: '/Home',
+      redirect: '/home',
       children: [
         {
-          path: '/Home',
-          name: 'Home',
+          path: '/home',
+          name: 'home',
           component: Home
         },
         {
@@ -27,15 +31,44 @@ export default new Router({
           name: 'List',
           component: List
         },
-        {
-          path: '/Search',
-          name: 'Search',
-          component: Search
-        },
+
         {
           path: '/Shop',
           name: 'Shop',
           component: Shop
+        }
+      ]
+    },
+    {
+      path: '/Search',
+      name: 'Search',
+      component: Search,
+      redirect: '/chess',
+      children:[
+        {
+          path: '/chess',
+          name: 'chess',
+          component: chess
+        },
+        {
+          path: '/eag',
+          name: 'eag',
+          component: eag
+        },
+        {
+          path: '/food',
+          name: 'food',
+          component: food
+        },
+        {
+          path: '/fuiter',
+          name: 'fuiter',
+          component: fuiter
+        },
+        {
+          path: '/you',
+          name: 'you',
+          component: you
         }
       ]
     }

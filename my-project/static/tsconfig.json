@@ -1,3 +1,134 @@
 {
+  "lunbo":[
+    {"img":"http://www.hangowa.com/data/upload/mobile/special/s1/s1_05327186142976760.jpg"},
+    {"img":"http://www.hangowa.com/data/upload/mobile/special/s1/s1_05345109604997733.jpg"},
+    {"img":"http://www.hangowa.com/data/upload/mobile/special/s1/s1_05330562712030759.jpg"}
+  ],
+  "jingxuan":[
+    {
+      "small": [
+        {"img": "../../static/1.jpg"},
+        {"img": "../../static/2.jpg"},
+        {"img": "../../static/3.jpg"}
+      ]
+    },
+    {
+      "big":[
+        {"img":"../../static/4.jpg"},
+        {"img":"../../static/5.jpg"}
+      ]
+    }
+  ],
+  "shop":[
+    {
+      "img":"../../static/images/q.jpg",
+      "pq":"洋溪蜜柚2个装 共6斤左右新鲜时令水果",
+      "doloor":"￥16.00"
+    },
+    {
+      "img":"../../static/images/w.jpg",
+      "pq":"西班牙DM原酒进口红酒干红葡萄750ml*2瓶",
+      "doloor":"￥39.90"
+    },
+    {
+      "img":"../../static/images/e.jpg",
+      "pq":"洋溪蜜柚2个装 共6斤左右新鲜时令水果",
+      "doloor":"￥48.80"
+    },
+    {
+      "img":"../../static/images/r.jpg",
+      "pq":"洋溪蜜柚2个装 共6斤左右新鲜时令水果",
+      "doloor":"￥29.80"
+    },
+    {
+      "img":"../../static/images/t.jpg",
+      "pq":"洋溪蜜柚2个装 共6斤左右新鲜时令水果",
+      "doloor":"￥16.80"
+    },
+    {
+      "img":"../../static/images/y.jpg",
+      "pq":"洋溪蜜柚2个装 共6斤左右新鲜时令水果",
+      "doloor":"￥41.00"
+    }
+  ],
+  "word":[
+    {
+      "img":"../../static/images/z.jpg",
+      "pq":"澳洲Devondele德运奶粉德运全脂奶粉成人奶",
+      "doloor":"￥16.00"
+    },
+    {
+      "img":"../../static/images/x.jpg",
+      "pq":"澳洲Devondele德运奶粉德运全脂奶粉成人奶",
+      "doloor":"￥39.90"
+    },
+    {
+      "img":"../../static/images/c.jpg",
+      "pq":"澳洲Devondele德运奶粉德运全脂奶粉成人奶",
+      "doloor":"￥48.80"
+    },
+    {
+      "img":"../../static/images/v.jpg",
+      "pq":"洋溪蜜柚2个装 共6斤左右新鲜时令水果",
+      "doloor":"￥29.80"
+    },
+    {
+      "img":"../../static/images/b.jpg",
+      "pq":"洋溪蜜柚2个装 共6斤左右新鲜时令水果",
+      "doloor":"￥16.80"
+    },
+    {
+      "img":"../../static/images/n.jpg",
+      "pq":"洋溪蜜柚2个装 共6斤左右新鲜时令水果",
+      "doloor":"￥41.00"
+    },
+    {
+      "img":"../../static/images/m.jpg",
+      "pq":"洋溪蜜柚2个装 共6斤左右新鲜时令水果",
+      "doloor":"￥41.00"
+    },
+    {
+      "img":"../../static/images/a.jpg",
+      "pq":"洋溪蜜柚2个装 共6斤左右新鲜时令水果",
+      "doloor":"￥41.00"
+    },
+    {
+      "img":"../../static/images/k.jpg",
+      "pq":"泰国进口 刷我的卡盒装酸梅妹曲奇饼干80g",
+      "doloor":"￥41.00"
+    },
+    {
+      "img":"../../static/images/l.jpg",
+      "pq":"泰国进口 刷我的卡盒装酸梅妹曲奇饼干80g",
+      "doloor":"￥41.00"
+    }
+  ],
+  "foods":[
+    {
+      "img":"http://www.hangowa.com/data/upload/shop/goods_category/05266594195585198.png",
+      "p":"生鲜水果",
+      "link":"/chess"
+    },
+    {
+      "img":"http://www.hangowa.com/data/upload/shop/goods_category/05266594195585198.png",
+      "p":"蛋奶速食",
+      "link":"/eag"
+    },
+    {
+      "img":"http://www.hangowa.com/data/upload/shop/goods_category/05266594407709434.png",
+      "p":"休闲零食",
+      "link":"/food"
+    },
+    {
+      "img":"http://www.hangowa.com/data/upload/shop/goods_category/05266594195585198.png",
+      "p":"粮油杂货",
+      "link":"/fuiter"
+    },
+    {
+      "img":"http://www.hangowa.com/data/upload/shop/goods_category/05266594195585198.png",
+      "p":"酒水饮品",
+      "link":"/you"
+    }
+  ]
 
 }
