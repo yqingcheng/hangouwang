@@ -24,6 +24,7 @@
       tiao(){
         this.$router.push('/');
 //        this.$router.go(-1);
+//        this.$router.back(-1);
       }
     },
 
@@ -40,6 +41,7 @@
      justify-content: space-between;
      align-items: center;
      font-size: 30px;
+     background: #f5f5f5;
    }
    .headerbar div:first-child{
      padding-left: 20px;
@@ -52,6 +54,7 @@
     border: 2px solid #ccc;
     border-radius: 20px;
     float: left;
+    background: #f5f5f5;
   }
   .three{
     margin-top: -20px;

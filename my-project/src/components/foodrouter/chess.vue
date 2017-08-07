@@ -14,7 +14,7 @@
   </div>
 </template>
 <script>
-  
+
   export default {
     name: 'chess',
     data () {
@@ -58,12 +58,13 @@
     position: absolute;
     top: 50px;
     right: 0;
-    border: 1px solid;
-    color: red;
+    /*border: 1px solid;*/
   }
   .cha div{
     width: 33.3%;
-    line-height: 30px;
+    line-height: 40px;
+    display: inline;
+    margin-left: -5px;
   }
   .cha{
     display: flex;
@@ -71,10 +72,16 @@
     flex-wrap: wrap;
   }
   .waiulq{
-    margin-top: -3px;
+    margin-top: 10px;
     position: relative;
+    /*border: 1px solid;*/
+    margin-left: 20px;
   }
   .waiulq li{
     list-style: disc;
+  }
+  .waiulq li p{
+    font-size: 19px;
+    color: red;
   }
 </style>

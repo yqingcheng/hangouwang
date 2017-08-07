@@ -53,7 +53,8 @@
     name: 'list',
     methods:{
       erji(){
-        this.$router.push('/shop');
+//        this.$router.push('/home');
+        this.$router.back(-1);
       }
     },
 
@@ -82,9 +83,9 @@
   }
 </script>
 <style scoped>
-  .lunbo{ width:100%;height: 122px; margin-top:55px;}
+  .lunbo{ width:100%;height: 122px; margin-top:65px;}
   .swiper-slide img{ width:100%;}
-  .header{width: 100%;height: 55px;background: #ccc;position: fixed;top: 0;}
+  .header{padding:5px 0 5px 0;width: 100%;height: 55px;background: #e7e7e9;position: fixed;top: 0;}
   .header span:nth-child(1){font-size: 25px;margin-left: 10px;  }
   .header span:nth-child(2){font-size: 23px;line-height: 55px;margin-left: 30px;color: rebeccapurple;  }
   .header span:nth-child(3){float: right;font-size: 30px;line-height: 20px;margin-right: 20px;  }

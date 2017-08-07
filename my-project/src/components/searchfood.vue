@@ -2,7 +2,7 @@
   <div class="searchfood">
     <ul class="foodulp">
       <li v-for="food in data.foods">
-        <router-link :to="food.link">
+        <router-link :to="food.link" >
           <img :src="food.img" alt="">
           <p>{{food.p}}</p>
         </router-link>
@@ -35,12 +35,13 @@
     width: 20%;
     position: relative;
     padding: 10px 0 5px 10px;
-    margin: 0;
-    border: 1px solid;
+    height: 600px;
+    background: #f5f5f5;
+    display: block;
   }
-  .foodulp li{
+  .foodulp li {
     text-align: center;
-    width: 60px;
+    width: 65px;
     height: 50px;
     padding: 6px 1px 6px 1px ;
     font-size: 15px;
@@ -53,8 +54,20 @@
   }
   .foodulp li a{
     text-decoration: none;
+    color: #555555;
   }
   .foodulp li p{
     margin-top: -1px;
+    /*padding-bottom: 8px;*/
+    padding: 0 2px 8px 2px;
+  }
+  .router-link-active p{
+    color: red;
+    border-bottom: 2px solid;
+  }
+  .router-link-active img{
+    width: 25px;
+    filter: grayscale(0%);
+    opacity: 1;
   }
 </style>

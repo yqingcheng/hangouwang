@@ -10,8 +10,15 @@ import eag from '@/components/foodrouter/eag'
 import food from '@/components/foodrouter/food'
 import fuiter from '@/components/foodrouter/fuiter'
 import you from '@/components/foodrouter/you'
+import denglu from '@/components/denglu'
+import zhuce from '@/components/zhuce'
+import putong from '@/components/zhucerouter/putong'
+import phone from '@/components/zhucerouter/phone'
+import zhezhi from '@/components/zhezhi'
+import shopcar from '@/components/shopcar'
+import jiesuan from '@/components/jiesuan'
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
@@ -36,8 +43,46 @@ export default new Router({
           path: '/Shop',
           name: 'Shop',
           component: Shop
+        },
+        {
+          path: '/zhezhi',
+          name: 'zhezhi',
+          component: zhezhi
+        },
+        {
+          path:'/denglu',
+          name:'denglu',
+          component:denglu
+        },
+        {
+          path:'/zhuce',
+          name:'zhuce',
+          component:zhuce,
+          redirect: '/putong',
+          children:[
+            {
+              path: '/putong',
+              name: 'putong',
+              component: putong
+            },
+            {
+              path: '/phone',
+              name: 'phone',
+              component: phone
+            }
+          ]
         }
       ]
+    },
+    {
+      path:'/shopcar',
+      name:'shopcar',
+      component:shopcar
+    },
+    {
+      path:'/jiesuan',
+      name:'jiesuan',
+      component:jiesuan
     },
     {
       path: '/Search',

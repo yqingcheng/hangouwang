@@ -5,7 +5,7 @@
         <h3>超值好货</h3>
         <p class="aaap">为您推荐以下商品</p>
       </div>
-      <div  v-for="str in list" class="tiomto">
+      <div  v-for="str in list" class="tiomto" @click="cartiao(str)">
         <img :src="str.src" alt="">
         <p>{{str.title}}</p>
         <span>{{str.price}}</span>
@@ -43,6 +43,18 @@
 <script>
   export default {
     name: 'fourbar',
+    methods:{
+      cartiao(str){
+        this.$router.push({
+          path:'/shopcar',
+          query:{
+            price:str.price,
+            img:str.src,
+            title:str.title
+          }
+      })
+    }
+    },
     data () {
       return {
         list2:[
@@ -102,33 +114,33 @@
         list:[
           {
             src:"http://www.hangowa.com/data/upload/shop/store/goods/48/2017/48_05501493308931738_240.jpg",
-            title:"78787878787878787",
+            title:"111111111111111",
             price:"￥9.90"
           },
           {
             src:"http://www.hangowa.com/data/upload/shop/store/goods/48/2017/48_05501493308931738_240.jpg",
-            title:"无无无无无无无无无无",
-            price:"￥9.90"
+            title:"222222222222222",
+            price:"￥9.80"
           },
           {
             src:"http://www.hangowa.com/data/upload/shop/store/goods/48/2017/48_05501493308931738_240.jpg",
-            title:"78787878787878787",
-            price:"￥9.90"
+            title:"33333333333333",
+            price:"￥9.70"
           },
           {
             src:"http://www.hangowa.com/data/upload/shop/store/goods/48/2017/48_05501493308931738_240.jpg",
-            title:"78787878787878787",
-            price:"￥9.90"
+            title:"444444444444444",
+            price:"￥9.60"
           },
           {
             src:"http://www.hangowa.com/data/upload/shop/store/goods/48/2017/48_05501493308931738_240.jpg",
-            title:"78787878787878787",
-            price:"￥9.90"
+            title:"5555555555555555",
+            price:"￥9.50"
           },
           {
             src:"http://www.hangowa.com/data/upload/shop/store/goods/48/2017/48_05501493308931738_240.jpg",
-            title:"787878787",
-            price:"￥9.90"
+            title:"666666666666666",
+            price:"￥9.40"
           }
         ]
       }
